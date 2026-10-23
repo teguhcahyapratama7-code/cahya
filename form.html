@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <table align="center">
+            <tr>
+                <td>Username</td>
+                <td><input type="teks" name="txtuser" id="" placeholder="masukan username"
+                    pattern="[A-Za-z]+">  <td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="txtuser" id="" placeholder="minim 6 karakter"
+                    pattern="[A-Za-z] {6,15}"> <td>
+            </tr>
+            <tr>
+                <td>Umur</td>
+                <td><input type="number" name="txtumur" id="" max="100">
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td><input type="radio" name="jkel" id="" checked value="p"> pria 
+                    <input type="radio" name="jkel" id="" value="w">wanita</td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td><textarea name="txtalm" id="" rows="4" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir</td>
+                <td><input type="data" name="txttgl" id=""><td>
+            </tr>
+            <tr>
+                <td>Jurusan</td>
+                <td><select name="txtjur" id="">
+                    <optgroup label="FTD">
+                        <option value="TI">Teknik informatika</option>
+                        <option value="SK">Sistem Komputer</option>
+                        <option value="DKV">Desain Komunikasi Visual</option>
+                    </optgroup>
+                    <optgroup label="FEB">
+                        <option value="AK">Akutansi</option>
+                        <option value="MAN">Manajemen</option>
+            </tr>
+            <tr>
+                <td><input type="submit" value="kirim" name="cmdkirim" id="">
+                    <input type="reset" value="batal" name="cmdbatal"><td>
+            </tr>
+        <table>
+    </form>
+</body>
+</html>
